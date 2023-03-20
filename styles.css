@@ -1,0 +1,45 @@
+.page {
+    /* background-color: blanchedalmond; */
+    background-image: url("foodbackground.jpg");
+    font-family: monospace, sans-serif;
+    color: rgb(143, 31, 31);
+    margin-top: 90px;
+    margin-bottom: auto;
+}
+
+.coverpage {
+    width: 90%;
+    background-color: rgb(36, 36, 35);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    max-width: 900px;
+    height: 90%;
+    max-height: 900px;
+}
+
+h1, h2{
+    text-align: center;
+    text-justify: auto;
+    color: rgb(143, 31, 31);
+}
+
+img {
+    width: 300px;
+    align-self: auto;
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: wavy;
+}
+
+a:link {
+    color: darkgray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+    font-size: large;
+}
