@@ -1,10 +1,23 @@
+* {
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
 .page {
     /* background-color: blanchedalmond; */
     background-image: url("foodbackground.jpg");
     font-family: monospace, sans-serif;
     color: rgb(143, 31, 31);
-    margin-top: 90px;
+    margin-top: 20vh;
     margin-bottom: auto;
+    background-size: 1366px;
+    margin-right: auto;
+    margin-left: auto;
+    height: fit-content;
+    width: fit-content;
+    viewport-fit:auto;
 }
 
 .coverpage {
@@ -42,4 +55,126 @@ a:link {
 a:hover {
     color: grey;
     font-size: large;
+}
+
+/* #footer {
+    position: absolute;
+    bottom: 0;
+} */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: monospace;
+    }
+
+    .page {
+        margin-top: 20vh;
+    }
+
+    .coverpage {
+        width: 90%;
+        background-color: rgb(36, 36, 35);
+        margin-left: auto;
+        margin-right: auto;
+        padding: 40px;
+        max-width: 900px;
+        height: 90%;
+        max-height: 160%;
+        display: justify;
+        margin-top: auto;
+        margin-bottom: auto;
+        border-radius: 30px;
+    }
+
+    #footer {
+        position: relative;
+        bottom: 0%;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: monospace;
+    }
+
+    .coverpage {
+        width: 90%;
+        background-color: rgb(36, 36, 35);
+        margin-left: auto;
+        margin-right: auto;
+        padding: 40px;
+        height: 100%;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: larger;
+        border-radius: 30px;
+        
+    }
+
+    #footer {
+        position: relative;
+        bottom: 0%;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: monospace;
+        
+    }
+
+    .coverpage {
+        width: 90%;
+        background-color: rgb(36, 36, 35);
+        margin-left: auto;
+        margin-right: auto;
+        padding: 40px;
+        height: 100%;
+        margin-top: auto;
+        margin-bottom: auto;
+        border-radius: 30px;
+        align-self: center;
+        font-size: large;
+    }
+
+    #footer {
+        position: relative;
+        bottom: 0%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: monospace;
+    }
+
+    .coverpage {
+        width: 90%;
+        background-color: rgb(36, 36, 35);
+        margin-left: auto;
+        margin-right: auto;
+        padding: 40px;
+        height: 100%;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: larger;
+        border-radius: 30px;
+        border-top: auto solid transparent;
+        border-bottom: auto;
+    }
+
+    #footer {
+        position: relative;
+        bottom: 0%;
+    }
 }
