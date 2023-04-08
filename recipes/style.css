@@ -1,12 +1,20 @@
+* {
+    padding: 0.6vh;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
 .page {
     background-color: blanchedalmond;
     font-family: 'Courier New', Courier, monospace;
     color: darkred;
     margin-top: auto;
     margin-bottom: auto;
+
     padding-top: 20px;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-bottom: 30px;
 }
 
@@ -28,6 +36,14 @@ h1, h2{
     color: rgb(143, 31, 31);
 }
 
+h1{
+    font-weight: bolder;
+}
+
+figcaption {
+    padding: 0;
+} 
+
 img {
     width: 80%;
     display: block;
@@ -35,4 +51,44 @@ img {
     margin-right: auto;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .page {
+        padding-top: 50px;
+        padding-left: 13%;
+        padding-right: 13%;
+        padding-bottom: 30px;
+    }
+
+    figcaption {
+        padding-bottom: 10px;
+    } 
+    
+    img {
+        width: 40vh;
+        margin-left: auto;
+        margin-right: auto;
+        display: flexbox;
+        padding-top: 20px;
+        padding-bottom:10px;
+    }
+}
+
+@media (min-width: 1025) and (max-width: 1440px) {
+    .page {
+        padding-top: 50px;
+        padding-left: 9%;
+        padding-right: 9%;
+        padding-bottom: 30px;
+    }
+
+    img {
+        width: 10vh;
+        margin-left: auto;
+        margin-right: auto;
+        display: flexbox;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 }
