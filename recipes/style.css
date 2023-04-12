@@ -45,7 +45,7 @@ figcaption {
 } 
 
 img {
-    width: 80%;
+    width: 60%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -72,24 +72,5 @@ img {
         display: inline-block;
         padding-top: 20px;
         padding-bottom:10px;
-    }
-}
-
-
-@media (min-width: 1025) and (max-width: 1440px) {
-    .page {
-        padding-top: 50px;
-        padding-left: 9%;
-        padding-right: 9%;
-        padding-bottom: 30px;
-    }
-
-    img {
-        width: 10vh;
-        margin-left: auto;
-        margin-right: auto;
-        display: flexbox;
-        padding-top: 20px;
-        padding-bottom: 20px;
     }
 }
