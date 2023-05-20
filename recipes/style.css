@@ -94,6 +94,14 @@ li {
 
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
+    .heading {
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+
+    .description {
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+
     .page {
         padding-top: 50px;
         padding-left: 2rem;
@@ -122,11 +130,12 @@ li {
         padding: 0;
         margin-left: auto;
         margin-right: auto;
+
     }
 
     .cooking {
         margin-bottom: 20px;
-        
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     }
 
     .instructions > * {
