@@ -55,7 +55,7 @@ li {
     padding: 20px;
     background-color: #7a2727;
     color: blanchedalmond;
-  
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .instructions {
@@ -75,6 +75,7 @@ li {
     line-height: 22px;
     background-color: #7a2727;
     color: blanchedalmond; 
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .heading {
@@ -88,6 +89,7 @@ li {
     text-justify: auto;
     background-color: #7a2727;
     color: blanchedalmond;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 
